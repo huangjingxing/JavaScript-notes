@@ -125,7 +125,7 @@ alert(stringValue.toUpperCase()); //"HELLO WORLD"
 alert(stringValue.toLocaleLowerCase()); //"hello world"
 alert(stringValue.toLowerCase()); //"hello world" 
 ```
-##字符串的模式匹配方法 
+## 字符串的模式匹配方法 
 
 match()，在字符串上调用这个方法，本质上与调用 RegExp 的 exec()方法相同。 match()方法只接受一个参数，要么是一
 个正则表达式，要么是一个 RegExp 对象 
