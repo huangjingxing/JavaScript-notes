@@ -19,9 +19,9 @@ lang = lang + "Script";
 在*调用数值的 toString()方法时，可以传递一个参数*：输出数值的基数。默认情况下， toString()方法以十进制格式返回数值的字符串表
 示。而通过传递基数， toString()可以输出以二进制、八进制、十六进制，乃至其他任意有效进制格式表示的字符串值。 
 要转换的值是不是 null 或 undefined 的情况下，还可以使用**转型函数 String()，这个函数能够将任何类型的值转换为字符串**。 
- 如果值有 toString()方法，则调用该方法（没有参数）并返回相应的结果；
- 如果值是 null，则返回"null"；
- 如果值是 undefined，则返回"undefined"。 
+>  如果值有 toString()方法，则调用该方法（没有参数）并返回相应的结果；
+>  如果值是 null，则返回"null"；
+>  如果值是 undefined，则返回"undefined"。 
 ```
 var value1 = 10;
 var value2 = true;
